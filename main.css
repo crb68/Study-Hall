@@ -1,0 +1,50 @@
+body,html{
+  height:90%;
+  min-height:100%;
+  width: 1000px;
+  margin: auto;
+}
+
+body{
+  background-image:url("retina_wood.png");
+  font-size:16px;
+}
+
+.login{
+  padding:30px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+#container{
+  -khtml-opacity:.87; 
+  -moz-opacity:.87; 
+  -ms-filter:"alpha(opacity=87)";
+  filter:alpha(opacity=87);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.87);
+  opacity:.87; 
+}
+
+#header{
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Coustard';
+  font-size: 4em;
+  color: #632424;
+  opacity:.7;
+}
+
+.login{
+  margin: 20px auto;
+  padding:30px;
+  background-image:url('lined_paper.png');
+  background-color:#F7F7F7;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+  border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border: 1px solid #BF97A7;
+  color: #000D41;
+  width: 40%;
+}
